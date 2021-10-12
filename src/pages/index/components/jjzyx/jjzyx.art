@@ -15,7 +15,7 @@
   </div>
 </div>
 <div class="bd">
-  <ul>
+  <!-- <ul>
     <li class="big grid">
       <a href="">
         <div class="pic">
@@ -116,5 +116,7 @@
         </div>
       </a>
     </li>
-  </ul>
+  </ul> -->
+  <% include('../../../../components/loading/loading.art', { inline: false,
+  text:'^_^ 正在拼命为您加载……' }) %>
 </div>

@@ -19,4 +19,5 @@ import './js/backtotop';
 import 'components/topbar';
 // import './components/carousel';
 import './components/slider';
+import 'components/loading';
 import './components/jjzyx';

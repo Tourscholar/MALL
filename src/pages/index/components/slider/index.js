@@ -5,12 +5,11 @@ import Slider from './module';
 
 import render from './slider.art';
 import { getData, getDelayedData } from 'api/getData';
+import { URL } from './config';
 
 const layoutEl = document.getElementById('slider-layout');
 
-getDelayedData(
-  'https://www.imooc.com/api/mall-PC/index/slider?icode=J6DDC8E3E7A8BF54C'
-).then(data => {
+getData(URL).then(data => {
   // console.log(data);
   // [ {url: "http://alimc}]
   layoutEl.innerHTML = render({
