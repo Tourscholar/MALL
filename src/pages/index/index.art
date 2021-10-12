@@ -242,13 +242,15 @@
           </ol>
         </div>
       </div> -->
-      {{include './components/carousel/carousel.art'}}
+      <div id="slider-layout">
+        loading...
+      </div>
       <div class="center-wrap">
         <!-- <div class="btns">
           <a id="leftbtn" href="javascript:;" class="btn leftbtn"></a>
           <a id="rightbtn" href="javascript:;" class="btn rightbtn"></a>
         </div> -->
-        {{include './components/carousel/btn.art'}}
+        {{include './components/slider/btn.art'}}
 
         <!-- menu -->
         <div class="v-menu-box" id="v-menu-box">
